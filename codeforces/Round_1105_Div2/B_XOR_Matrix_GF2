@@ -1,0 +1,14 @@
+MOD = 998244353
+
+def solve():
+    n, m, r, c = map(int, input().split())
+
+    dof = n * m - ((n - r + 1) * (m - c + 1))
+
+    print(pow(2, dof, MOD))
+
+
+t = int(input())
+
+for _ in range(t):
+    solve()
