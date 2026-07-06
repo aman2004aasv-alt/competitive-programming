@@ -1,0 +1,12 @@
+def solve():
+
+	x, y = map(int ,input().split())
+	
+	if x % y == 0:
+    		print("YES")
+	else:
+    		print("NO")
+t= int(input())
+for _ in range(t):
+	solve()	
+		
